@@ -44,3 +44,23 @@ Select Option:
 ```bash
 printf '1\n2\n0\n' | java -jar target/ADS-Dental-Appointment-Management-System-1.0.0.jar
 ```
+
+## Container Image
+
+Build the Docker image:
+
+```bash
+docker build -t ads-dental-appointment-management-system .
+```
+
+Run the CLI in a container:
+
+```bash
+docker run --rm -it ads-dental-appointment-management-system
+```
+
+Example non-interactive container run:
+
+```bash
+printf '1\n2\n0\n' | docker run --rm -i ads-dental-appointment-management-system
+```
