@@ -67,6 +67,12 @@ printf '1\n2\n0\n' | docker run --rm -i ads-dental-appointment-management-system
 
 Pull the published Docker Hub image:
 
+Public Docker Hub image page:
+
+```text
+https://hub.docker.com/r/mayusuf/ads
+```
+
 ```bash
 docker pull mayusuf/ads:latest
 ```
