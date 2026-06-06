@@ -2,6 +2,12 @@
 
 Java 21 Maven CLI application for displaying dental appointment data as pretty-printed JSON.
 
+GitHub repository:
+
+```text
+https://github.com/mayusuf/ADS
+```
+
 ## Requirements
 
 - Java 21
