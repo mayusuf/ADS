@@ -64,3 +64,15 @@ Example non-interactive container run:
 ```bash
 printf '1\n2\n0\n' | docker run --rm -i ads-dental-appointment-management-system
 ```
+
+Pull the published Docker Hub image:
+
+```bash
+docker pull mayusuf/ads:latest
+```
+
+Run the published Docker Hub image:
+
+```bash
+docker run --rm -it mayusuf/ads:latest
+```
